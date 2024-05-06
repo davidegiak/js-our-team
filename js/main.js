@@ -37,5 +37,5 @@ let team = [
 
 for (let i = 0; i < team.length; i++) {
     const element = team[i];
-    console.log(element.nome, element.ruolo, element.img)
+    console.log(element.nome, element.ruolo)
 }
