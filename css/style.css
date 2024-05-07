@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #222;
+}
+
+.card {
+    width: calc((100% / 3) - 1rem);
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    
+
+}

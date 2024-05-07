@@ -34,15 +34,12 @@ let team = [
     img: "barbara-ramos-graphic-designer.jpg"
     },
 ];
-
 for (let i = 0; i < team.length; i++) {
     const element = team[i];
-    for (let key in element) {
-        console.log(element[key]);
-        document.querySelector("body").append(element[key])
-    }
+    document.querySelector("main").innerHTML += creation(team[i].nome, team[i].ruolo, team[i].img)
+
 }
 
-
-
-
+// for (let i = 0; i < team.length; i++) {
+//     let cards = 
+// }
