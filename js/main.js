@@ -36,7 +36,7 @@ let team = [
 ];
 for (let i = 0; i < team.length; i++) {
     const element = team[i];
-    document.querySelector("main").innerHTML += creation(team[i].nome, team[i].ruolo, team[i].img)
+    document.querySelector("main").innerHTML += creation(element.nome, element.ruolo, element.img)
 
 }
 

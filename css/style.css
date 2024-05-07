@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #222;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    background-color: #222;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    width: calc((100% / 3) - 1rem);
+    width: calc((100% / 3) - 3rem);
+    height: 20rem;
     background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
@@ -22,5 +28,4 @@ main {
 
 .img {
     
-
 }
